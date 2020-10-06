@@ -17,7 +17,7 @@
   ],
   "dependencies": {
     "lodash": "^4.17.20",
-    "daBerry": "https://github.com/jeazzellebaham/daBerry"
+    "daBerry":  "https://github.com/jeazzellebaham/video-game-course.git/"
   }
 }
 //  "https://github.com/jeazzellebaham/video-game-course.git/" //
