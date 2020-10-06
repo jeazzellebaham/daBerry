@@ -2,7 +2,7 @@
   window.myLibraryName = window.myLibraryName || {
     numz: {
 
-     getAngleDegrees (pointA, pointB) {
+     getAngeleDegrees : function (pointA, pointB) {
             const
             distanceX = pointB.x - pointA.x,
             distanceY = pointB.y - pointA.y,
@@ -10,10 +10,12 @@
             degrees = radians * 180 / Math.PI;
                 return degrees;
         },
-    degreesToRadians (degrees) {
+
+    degreesToRadians: function (degrees) {
         return degrees * Math.PI / 180;
-        },
-    radiansToDgrees (radians) {
+    },
+
+    radiansToDegrees : function (radians) {
         return radians * 180 / Math.PI;
     }
     },
